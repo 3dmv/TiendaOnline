@@ -1,16 +1,18 @@
 package friki.tienda.com.backoffice.accions;
 
 //import operaciones.*;
-import org.apache.struts.action.*;
-
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.io.Serializable;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import friki.tienda.com.Persistencia.AdministradorBean;
+import org.apache.struts.action.Action;
+import org.apache.struts.action.ActionForm;
+import org.apache.struts.action.ActionForward;
+import org.apache.struts.action.ActionMapping;
+
+import friki.tienda.com.backoffice.formBeans.AdministradorBean;
 
 
 public class ConsultarAdministradors extends Action {

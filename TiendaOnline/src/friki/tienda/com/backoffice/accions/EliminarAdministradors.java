@@ -1,7 +1,8 @@
 package friki.tienda.com.backoffice.accions;
 
-//import operaciones.*;
 import org.apache.struts.action.*;
+
+import friki.tienda.com.backoffice.formBeans.AdministradorBean;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -9,8 +10,6 @@ import java.io.Serializable;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import friki.tienda.com.Persistencia.AdministradorBean;
 
 
 public class EliminarAdministradors extends Action {
